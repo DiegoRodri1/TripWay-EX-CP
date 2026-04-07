@@ -3,12 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TripWay - Contato</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <title>TripWay | Reserva de Viagens</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    header {
+      background-color: rgb(102, 154, 250);
+      color: white;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+    }
+
+    nav a:hover {
+      color: rgb(207, 152, 0);
+    }
+
+    main {
+      background-color: #fcfcfc;
+      padding: 20px;
+      text-align: center;
+    }
+
+    a {
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: dodgerblue;
+    }
+  </style>
+
 </head>
-<body style="font-family: 'Poppins', sans-serif;">
+
+<body>
  
   <header>
-    <img src="https://cdn.vectorstock.com/i/preview-1x/85/73/travel-symbol-icon-vector-30538573.jpg" alt="Logo TripWay" width="180">
+    <img src="https://cdn.vectorstock.com/i/preview-1x/85/73/travel-symbol-icon-vector-30538573.jpg" width="180">
     <h1>Contato e Reserva</h1>
  
     <nav>
@@ -25,36 +69,45 @@
  
     <section>
       <h2>Faça sua reserva</h2>
-      <img src="https://img.freepik.com/fotos-gratis/estou-aqui-para-ajuda-lo-com-sua-reserva-e-duvidas-de-viagem-agente-de-vendas-feminino-segurando-passagens-de-aviao-enquanto-sorri-e-faz-contato-visual-na-agencia-de-viagens_662251-2371.jpg?semt=ais_hybrid&w=740&q=80" alt="Imagem de contato e reserva de viagens" width="300">
+      <p>Preencha o formulário e nossa equipe vai te ajudar a planejar sua viagem perfeita ✈️</p>
+ 
+      <img src="https://img.freepik.com/fotos-gratis/estou-aqui-para-ajuda-lo-com-sua-reserva-e-duvidas-de-viagem-agente-de-vendas-feminino-segurando-passagens-de-aviao-enquanto-sorri-e-faz-contato-visual-na-agencia-de-viagens_662251-2371.jpg?semt=ais_hybrid&w=740&q=80" width="500">
     </section>
+ 
+    <br>
  
     <section>
       <form action="#" method="post">
  
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome" required><br><br>
+        <fieldset>
+          <legend><strong>Dados para Reserva</strong></legend>
  
-        <label for="email">E-mail:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+          <label for="nome">Nome:</label><br>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
  
-        <label for="destino">Destino de interesse:</label><br>
-        <select id="destino" name="destino" required>
-          <option value="">Selecione</option>
-          <option value="praia">Praia de Ilha Bela Brasil </option>
-          <option value="montanha">Appalachian Trail Estados Unidos </option>
-          <option value="cidade">Londres Capital da Inglaterra </option>
-        </select><br><br>
+          <label for="email">E-mail:</label><br>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br><br>
  
-        <label for="data">Data da viagem:</label><br>
-        <input type="date" id="data" name="data" required><br><br>
+          <label for="destino">Destino de interesse:</label><br>
+          <select id="destino" name="destino" required>
+            <option value="">Selecione</option>
+            <option>Ilhabela - Brasil</option>
+            <option>Appalachian Trail - EUA</option>
+            <option>Londres - Inglaterra</option>
+          </select><br><br>
  
-        <label for="quantidade">Número de pessoas:</label><br>
-        <input type="number" id="quantidade" name="quantidade" min="1" required><br><br>
+          <label for="data">Data da viagem:</label><br>
+          <input type="date" id="data" name="data" required><br><br>
  
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea><br><br>
+          <label for="quantidade">Número de pessoas:</label><br>
+          <input type="number" id="quantidade" name="quantidade" min="1" required><br><br>
  
-        <button type="submit">Enviar solicitação</button>
+          <label for="mensagem">Mensagem:</label><br>
+          <textarea id="mensagem" name="mensagem" rows="5" cols="30" placeholder="Escreva sua mensagem..."></textarea><br><br>
+ 
+          <button type="submit">Enviar solicitação</button>
+ 
+        </fieldset>
  
       </form>
     </section>
@@ -62,12 +115,12 @@
   </main>
  
   <footer style="background-color: lightblue; padding: 10px;">
-  <center>
-    <p><strong>TripWay</strong></p>
-    <p>Explore o mundo com a gente 🌍✈️</p>
-    <p>&copy; 2025 - Todos os direitos reservados</p>
-  </center>
-</footer>
+    <center>
+      <p><strong>TripWay</strong></p>
+      <p>Explore o mundo com a gente 🌍✈️</p>
+      <p>&copy; 2025 - Todos os direitos reservados</p>
+    </center>
+  </footer>
  
 </body>
 </html>
