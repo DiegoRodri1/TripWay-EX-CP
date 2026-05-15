@@ -305,3 +305,30 @@ p {
   color: var(--cinza-texto);
   flex-grow: 1;
 }
+.banner-secundario {
+  max-width: 60%;
+  margin: var(--espaco-lg) auto 0 auto;
+  border-radius: var(--raio);
+  box-shadow: var(--sombra-card);
+}
+
+.card-pacote {
+  background: linear-gradient(180deg, var(--branco) 0%, var(--azul-suave) 100%);
+  border-top: 4px solid var(--azul-royal);
+}
+
+.card-pacote .card-content {
+  text-align: center;
+  padding: var(--espaco-lg);
+}
+
+.tag {
+  display: inline-block;
+  background-color: var(--azul-royal);
+  color: var(--branco);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: var(--espaco-md);
+}
