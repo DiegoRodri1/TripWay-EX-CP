@@ -189,3 +189,52 @@ p {
 .rodape p {
   margin-bottom: var(--espaco-sm);
 }
+
+#pagina-home .hero {
+  background: linear-gradient(135deg, var(--azul-royal), var(--azul-escuro));
+  color: var(--branco);
+  padding: var(--espaco-xl) var(--espaco-lg);
+  border-radius: var(--raio);
+  text-align: center;
+  margin-bottom: var(--espaco-xl);
+  box-shadow: var(--sombra-card);
+}
+
+#pagina-home .hero h2 {
+  color: var(--branco);
+  font-size: 2.5rem;
+  margin-bottom: var(--espaco-md);
+}
+
+#pagina-home .hero-subtitulo {
+  font-size: 1.15rem;
+  max-width: 70%;
+  margin: 0 auto var(--espaco-lg) auto;
+  opacity: 0.95;
+}
+
+.hero-img {
+  margin: 0 auto;
+  border-radius: var(--raio);
+  max-width: 80%;
+  box-shadow: var(--sombra-hover);
+}
+
+#pagina-home .sobre {
+  background-color: var(--branco);
+  padding: var(--espaco-xl);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra-card);
+  text-align: center;
+}
+
+#pagina-home .sobre h2 {
+  color: var(--azul-royal);
+  margin-bottom: var(--espaco-md);
+}
+
+#pagina-home .sobre p {
+  max-width: 80%;
+  margin: 0 auto var(--espaco-lg) auto;
+  font-size: 1.05rem;
+}
