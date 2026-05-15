@@ -8,7 +8,7 @@
 
 ## Turma
 
-[COLOQUE A TURMA AQUI - ex: 1TDSPF]
+1TDSPX-2026
 
 ## Descrição
 
