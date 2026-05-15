@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --azul-royal: #1E3A8A;
+  --azul-escuro: #0F2461;
+  --azul-claro: #3B82F6;
+  --azul-suave: #DBEAFE;
+  --branco: #FFFFFF;
+
+  --cinza-fundo: #F8FAFC;
+  --cinza-texto: #334155;
+  --cinza-borda: #E2E8F0;
+
+  --fonte-principal: 'Poppins', Arial, sans-serif;
+  --fonte-titulo: 'Montserrat', Arial, sans-serif;
+
+  --espaco-sm: 0.5rem;
+  --espaco-md: 1rem;
+  --espaco-lg: 2rem;
+  --espaco-xl: 3rem;
+
+  --raio: 8px;
+  --sombra-card: 0 4px 6px rgba(0, 0, 0, 0.08);
+  --sombra-hover: 0 8px 16px rgba(0, 0, 0, 0.15);
+
+  --largura-max: 1200px;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--fonte-principal);
+  color: var(--cinza-texto);
+  background-color: var(--cinza-fundo);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
