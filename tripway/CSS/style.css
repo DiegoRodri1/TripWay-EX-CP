@@ -468,3 +468,70 @@ p {
     max-width: 95%;
   }
 }
+@media (max-width: 480px) {
+  .cabecalho {
+    padding: var(--espaco-md);
+  }
+
+  .cabecalho h1 {
+    font-size: 1.2rem;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #pagina-home .hero {
+    padding: var(--espaco-lg) var(--espaco-md);
+  }
+
+  #pagina-home .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  #pagina-home .hero-subtitulo {
+    font-size: 1rem;
+    max-width: 95%;
+  }
+
+  #pagina-home .sobre {
+    padding: var(--espaco-md);
+  }
+
+  .titulo-pagina h2 {
+    font-size: 1.6rem;
+  }
+
+  .card {
+    width: 95%;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-container {
+    padding: var(--espaco-md);
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 0.95rem;
+  }
+
+  .rodape {
+    padding: var(--espaco-md);
+    font-size: 0.85rem;
+  }
+}
