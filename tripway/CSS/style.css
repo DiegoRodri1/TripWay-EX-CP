@@ -332,3 +332,139 @@ p {
   font-weight: 600;
   margin-top: var(--espaco-md);
 }
+.form-container {
+  background-color: var(--branco);
+  padding: var(--espaco-xl);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra-card);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-titulo {
+  text-align: center;
+  color: var(--azul-royal);
+  margin-bottom: var(--espaco-lg);
+  font-size: 1.3rem;
+  padding-bottom: var(--espaco-md);
+  border-bottom: 2px solid var(--azul-suave);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-md);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: var(--azul-escuro);
+  margin-bottom: var(--espaco-sm);
+  font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--cinza-borda);
+  border-radius: var(--raio);
+  font-family: var(--fonte-principal);
+  font-size: 1rem;
+  color: var(--cinza-texto);
+  background-color: var(--cinza-fundo);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  width: 100%;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--azul-royal);
+  background-color: var(--branco);
+  box-shadow: 0 0 0 3px var(--azul-suave);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+  font-family: var(--fonte-principal);
+}
+
+.btn-enviar {
+  width: 100%;
+  margin-top: var(--espaco-md);
+  font-size: 1.05rem;
+}
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--espaco-md);
+  }
+
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--espaco-sm);
+    width: 100%;
+  }
+
+  .menu a {
+    display: block;
+    width: 80%;
+    text-align: center;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 500px;
+  }
+
+  #pagina-home .hero h2 {
+    font-size: 1.8rem;
+  }
+
+  #pagina-home .hero-subtitulo {
+    max-width: 90%;
+  }
+
+  .hero-img {
+    max-width: 95%;
+  }
+
+  #pagina-home .sobre {
+    padding: var(--espaco-lg) var(--espaco-md);
+  }
+
+  #pagina-home .sobre p {
+    max-width: 95%;
+  }
+
+  .banner-secundario {
+    max-width: 90%;
+  }
+
+  main {
+    padding: var(--espaco-lg) var(--espaco-md);
+  }
+
+  .form-container {
+    padding: var(--espaco-lg) var(--espaco-md);
+  }
+
+  .titulo-pagina p {
+    max-width: 95%;
+  }
+}
